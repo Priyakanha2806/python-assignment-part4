@@ -1,31 +1,31 @@
 # Python Assignment Part 4
 
-## 📌 Description
-This project performs data analysis and visualization using Python.  
-It reads a student dataset and generates insights along with graphical representations.
+## Description
+This project performs data analysis and visualization using Python.
 
----
-
-## 🚀 Features
-- Reads student data from CSV file
-- Displays dataset summary
-- Calculates pass and fail statistics
-- Finds top-performing student
+## Features
+- Reads student dataset from CSV
+- Performs statistical analysis
+- Identifies top student
 - Generates visualizations:
-  - Pass vs Fail bar chart
-  - Subject average marks chart
-  - Study hours vs performance scatter plot
+  - Pass vs Fail chart
+  - Subject average chart
+  - Study hours vs performance
 
----
+## Files
+- part4_visualization_ml.py
+- students.csv
 
-## 📂 Files Included
-- `part4_visualization_ml.py` → Main Python script  
-- `students.csv` → Dataset  
+## How to Run
+pip install pandas matplotlib
+python part4_visualization_ml.py
+## Sample Output
+![Graph](image.png)
 
----
 
-## ▶️ How to Run
+## Output
+- Displays dataset summary
+- Shows graphs for analysis
+- ## Sample Output
 
-### Step 1: Install libraries
-```bash
-pip install pandas matplotlib# python-assignment-part4
+![Graph](graph.png)
